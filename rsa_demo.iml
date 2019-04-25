@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/out/production/rsa_demo" />
+    <output-test url="file://$MODULE_DIR$/out/test/rsa_demo" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="bcprov-debug-jdk15on-161" level="project" />
+    <orderEntry type="library" name="bcprov-ext-debug-jdk15on-161" level="project" />
+  </component>
+</module>
