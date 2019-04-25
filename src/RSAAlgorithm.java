@@ -68,6 +68,13 @@ public class RSAAlgorithm {
         return encodedhash;
     }
 
+    public static KeyPair genKey(int keySize) throws Exception {
+        KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA", "BC");
+        keyGen.initialize(keySize);
+        KeyPair pair = keyGen.generateKeyPair();
+        return pair;
+    }
+
     public static PrivateKey getPrivateKey(String pemFormatKey) throws Exception {
         KeyFactory factory = KeyFactory.getInstance("RSA", "BC");
         byte[] content = getPemContent(pemFormatKey);
